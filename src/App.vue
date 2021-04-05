@@ -89,7 +89,7 @@ ul {
   border: 4px white solid;
   background-color: black;
   color: white;
-  width: 170px;
+  width: 155px;
   padding: 5px;
   margin-left: 20px;
 }
@@ -127,5 +127,27 @@ img {
 
 #labelLow {
   color: greenyellow
+}
+
+#High, #Low {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 16px;
+  height: 16px;
+  border: 3px solid white;
+  margin-right: 5px;
+
+}
+
+#High:checked {
+  background-color: white
+
+}
+
+#Low:checked {
+  background-color: white
+
 }
 </style>
